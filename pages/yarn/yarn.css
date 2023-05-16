@@ -1,0 +1,17 @@
+h1{
+    color: white;
+    
+}
+
+.main1{
+background-color: #324376;
+text-align: center;
+height: 50%;
+width: 100%;
+display: flex;
+}
+.main2{
+    background-color: #586BA4;
+    height: 50%;
+width: 100%;
+}
