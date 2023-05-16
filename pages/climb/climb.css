@@ -34,5 +34,22 @@ body {
 
 .nav-item:first-child {
     margin-right: auto;
-    font-size: larger;
+    font-size: 65px;
+    margin-top: -1px;
+}
+
+.active {
+    border-radius: 22px;
+    padding-bottom: 55px;
+    background: #b18974;
+}
+
+.intro {
+    text-align: center;
+    font-size: 50px;
+}
+
+.titlecon {
+    scale: 0.5;
+    margin-left: -25px;
 }
