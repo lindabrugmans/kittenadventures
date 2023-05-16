@@ -1,0 +1,5 @@
+@font-face { font-family: Meows; src: url('/fonts/Meows-VGWjy.ttf');}
+
+.h1{
+    font-family: Meows, sans-serif;
+}
