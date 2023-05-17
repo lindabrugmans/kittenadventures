@@ -83,6 +83,11 @@ body {
     border-radius: 30px;
 }
 
+.introtext{
+    font-size:30px;
+    margin-top:5px;
+}
+
 .box {
     background-color: #ddbea9;
     height: 20rem;
@@ -99,4 +104,9 @@ body {
     z-index: -1;
     position: absolute;
     margin-top: -37rem;
+}
+
+.img{
+    background-image: url('/assets/catinwall.png');
+    background-size: cover;
 }
