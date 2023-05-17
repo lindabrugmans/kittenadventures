@@ -1,34 +1,134 @@
-@font-face { font-family: Meows; src: url('/fonts/Meows-VGWjy.ttf');}
+@font-face {
+    font-family: Meows;
+    src: url('/fonts/Meows-VGWjy.ttf');
+}
 
-body{
+body {
     background: #ffe8d6;
     font-size: 40px;
     font-family: Meows, sans-serif;
 }
 
-.nav-list{
+.nav-list {
     height: 5rem;
     background: #ddbea9;
     display: flex;
     justify-content: end;
     margin-top: 0rem;
-    list-style-type:none;
+    list-style-type: none;
 }
 
-.nav-item{
+.nav-item {
     list-style: none;
     margin: 1rem;
 }
 
-.nav-item a{
+.nav-item a {
     border: solid black 0.1rem;
-    padding: 0.3rem;
+    padding: 0.4rem;
+    padding-bottom: 2px;
     color: black;
     text-decoration: none;
-    border-radius: 1rem;
+    border-radius: 22px;
 }
 
-.nav-item:first-child{
+.nav-item:first-child {
     margin-right: auto;
-    font-size: larger;
+    font-size: 65px;
+    margin-top: -1px;
+}
+
+.active {
+    border-radius: 22px;
+    padding-bottom: 55px;
+    background: #b18974;
+}
+
+.intro {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.pawcon {
+    scale: 0.5;
+    margin-left: -25px;
+}
+
+.catcon{
+    scale: 0.5;
+    margin-right:-20px;
+}
+
+.backbox {
+    background-color: #ddbea9;
+    height: 100%w;
+    margin-top: 6.4rem;
+}
+
+.dobox {
+    background-color: #b18974;
+    margin-right: 2%;
+    margin-left: 15%;
+    margin-top: 3%;
+    height: 15rem;
+    border-radius: 30px;
+}
+
+.dontbox {
+    background-color: #b18974;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 15rem;
+    border-radius: 30px;
+}
+
+.box {
+    background-color: #ddbea9;
+    height: 20rem;
+    border-radius: 22px;
+    width: 40rem;
+    margin-left: 26%;
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.beam {
+    background-color: #ddbea9;
+    height: 2rem;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    margin-top: -37rem;
+}
+
+.dosIconsLeft{
+    scale: 0.5;
+    position: absolute;
+    margin: -0.5rem 0rem 0rem -3.5rem;
+}
+
+.dosIconsRight{
+    scale: 0.5;
+    position: absolute;
+    margin: 0.5rem 0rem 0rem -2rem;
+}
+
+.dosIconsLeftTop{
+    scale: 0.5;
+    position: absolute;
+    margin: 1.2rem 0rem 0rem -0.5rem;
+    font-size: 30px;
+}
+
+.dosIconsRightTop{
+    scale: 0.5;
+    position: absolute;
+    margin: 2.2rem 0rem 0rem 1rem;
+    font-size: 30px;
+}
+
+.textDosDonts{
+    font-size: 30px;
+    margin: 0.4rem 0rem 0rem 3rem;
 }
