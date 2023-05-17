@@ -158,7 +158,7 @@ body {
 }
 
 .pawtwo {
-    transform: rotateZ(-30deg);
+    transform: rotateZ(-35deg);
     background-color: #b18974;
     height: 10rem;
     width: 14rem;
@@ -166,7 +166,7 @@ body {
     position: absolute;
     margin-top: -42.5rem;
     border-radius: 100%;
-    margin-left: 20rem;
+    margin-left: 15rem;
 }
 
 .nailone {
