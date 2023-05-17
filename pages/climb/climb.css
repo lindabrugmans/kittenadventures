@@ -12,6 +12,7 @@ body {
 .example::-webkit-scrollbar {
     display: none;
 }
+
 .example {
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -116,12 +117,12 @@ body {
     margin-top: -37rem;
 }
 
-.circlebeam{
-    background-color:white;
-    height:2rem;
-    width:100%;
-    z-index:-1;
-    position:absolute;
+.circlebeam {
+    background-color: white;
+    height: 2rem;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
     margin-top: -20.3rem;
 }
 
@@ -152,39 +153,124 @@ body {
     background-color: #b18974;
 }
 
-.tutorialtext{
-    font-size:20px;
-    margin-top:-35px;
-    margin-left:10px;
+.tutorialtext {
+    font-size: 20px;
+    margin-top: -35px;
+    margin-left: 10px;
 }
 
-.dosIconsLeft{
+.dosIconsLeft {
     scale: 0.5;
     position: absolute;
     margin: -0.5rem 0rem 0rem -3.5rem;
 }
 
-.dosIconsRight{
+.dosIconsRight {
     scale: 0.5;
     position: absolute;
     margin: 0.5rem 0rem 0rem -2rem;
 }
 
-.dosIconsLeftTop{
+.dosIconsLeftTop {
     scale: 0.5;
     position: absolute;
     margin: 1.2rem 0rem 0rem -0.5rem;
     font-size: 30px;
 }
 
-.dosIconsRightTop{
+.dosIconsRightTop {
     scale: 0.5;
     position: absolute;
     margin: 2.2rem 0rem 0rem 1rem;
     font-size: 30px;
 }
 
-.textDosDonts{
+.textDosDonts {
     font-size: 30px;
     margin: 0.4rem 0rem 0rem 3rem;
+}
+
+
+.pawone {
+    transform: rotateZ(45deg);
+    background-color: #b18974;
+    height: 10rem;
+    width: 15rem;
+    z-index: -2;
+    position: absolute;
+    margin-top: -47rem;
+    border-radius: 100%;
+    margin-left: 15rem;
+}
+
+.pawtwo {
+    transform: rotateZ(-35deg);
+    background-color: #b18974;
+    height: 10rem;
+    width: 14rem;
+    z-index: -2;
+    position: absolute;
+    margin-top: -42.5rem;
+    border-radius: 100%;
+    margin-left: 15rem;
+}
+
+.nailone {
+    transform: rotateZ(-120deg);
+    border-radius: 100%;
+    height: 6rem;
+    width: 5rem;
+    background-color: #b18974;
+    margin-top: -50rem;
+    z-index: -2;
+    margin-left: 27rem;
+    position: absolute;
+}
+
+.nailtwo {
+    transform: rotateZ(-100deg);
+    border-radius: 100%;
+    height: 7rem;
+    width: 5rem;
+    background-color: #b18974;
+    margin-top: -45rem;
+    margin-left: 30rem;
+    z-index: -2;
+    position: absolute;
+}
+
+.nailthree {
+    transform: rotateZ(-80deg);
+    border-radius: 100%;
+    height: 7rem;
+    width: 5rem;
+    background-color: #b18974;
+    margin-top: -39rem;
+    margin-left: 30rem;
+    z-index: -2;
+    position: absolute;
+}
+
+.nailfour {
+    transform: rotateZ(-60deg);
+    border-radius: 100%;
+    height: 6rem;
+    width: 5rem;
+    background-color: #b18974;
+    margin-top: -34.5rem;
+    z-index: -2;
+    margin-left: 25.5rem;
+    position: absolute;
+
+}
+
+.secondpaw {
+    margin-left: 80rem;
+    position: absolute;
+}
+
+.thirdpaw {
+    margin-left: 39rem;
+    position: absolute;
+    margin-top: 10rem
 }
