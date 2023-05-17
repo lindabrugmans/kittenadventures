@@ -9,7 +9,9 @@ body {
     color: #333;
     margin: unset;
   }
-  
+  i{
+    font-size: 1rem;
+  }
   p {
     font-size: 1.5rem;
     width: 90%;
@@ -32,7 +34,9 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-  
+  .last{
+    align-items: center;
+  }
   section {
     background-color: #ddbea9;
     border-radius: 5rem;
