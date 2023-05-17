@@ -9,6 +9,16 @@ body {
     font-family: Meows, sans-serif;
 }
 
+.example::-webkit-scrollbar {
+    display: none;
+}
+.example {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 .nav-list {
     height: 5rem;
     background: #ddbea9;
@@ -146,4 +156,35 @@ body {
     font-size:20px;
     margin-top:-35px;
     margin-left:10px;
+}
+
+.dosIconsLeft{
+    scale: 0.5;
+    position: absolute;
+    margin: -0.5rem 0rem 0rem -3.5rem;
+}
+
+.dosIconsRight{
+    scale: 0.5;
+    position: absolute;
+    margin: 0.5rem 0rem 0rem -2rem;
+}
+
+.dosIconsLeftTop{
+    scale: 0.5;
+    position: absolute;
+    margin: 1.2rem 0rem 0rem -0.5rem;
+    font-size: 30px;
+}
+
+.dosIconsRightTop{
+    scale: 0.5;
+    position: absolute;
+    margin: 2.2rem 0rem 0rem 1rem;
+    font-size: 30px;
+}
+
+.textDosDonts{
+    font-size: 30px;
+    margin: 0.4rem 0rem 0rem 3rem;
 }

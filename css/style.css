@@ -62,7 +62,7 @@ body {
 
 .backbox {
     background-color: #ddbea9;
-    height: 100%w;
+    height: 30rem;
     margin-top: 6.4rem;
 }
 
@@ -97,38 +97,75 @@ body {
     background-color: #ddbea9;
     height: 2rem;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
     position: absolute;
-    margin-top: -37rem;
+    margin-top: -55rem;
 }
 
 .dosIconsLeft{
     scale: 0.5;
     position: absolute;
-    margin: -0.5rem 0rem 0rem -3.5rem;
+    margin: 1rem 0rem 0rem 5rem;
+    transform: rotateZ(-45deg);
 }
 
 .dosIconsRight{
     scale: 0.5;
     position: absolute;
-    margin: 0.5rem 0rem 0rem -2rem;
+    margin: 0rem 0rem 0rem 7rem;
+    transform: rotateZ(-45deg);
 }
 
 .dosIconsLeftTop{
     scale: 0.5;
     position: absolute;
-    margin: 1.2rem 0rem 0rem -0.5rem;
+    margin: 7rem 0rem 0rem 23rem;
+    transform: rotateZ(75deg);
     font-size: 30px;
 }
 
 .dosIconsRightTop{
     scale: 0.5;
     position: absolute;
-    margin: 2.2rem 0rem 0rem 1rem;
+    margin: 8rem 0rem 0rem 25rem;
+    transform: rotateZ(75deg);
+    font-size: 30px;
+}
+
+.dosIconsLeftBottom{
+    scale: 0.5;
+    position: absolute;
+    margin: 10rem 0rem 0rem 12rem;
+    transform: rotateZ(-165deg);
+    font-size: 30px;
+}
+
+.dosIconsRightBottom{
+    scale: 0.5;
+    position: absolute;
+    margin: 8rem 0rem 0rem 11rem;
+    transform: rotateZ(-165deg);
     font-size: 30px;
 }
 
 .textDosDonts{
     font-size: 30px;
     margin: 0.4rem 0rem 0rem 3rem;
+}
+
+
+.btn{
+font-family: Roboto, sans-serif;
+font-size: 14px;
+color: #fff;
+background-color: #ddbea9;
+padding: 10px 30px;
+border: none;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+display: flex;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+margin: 8rem 0rem 0rem 15.65rem;
 }
