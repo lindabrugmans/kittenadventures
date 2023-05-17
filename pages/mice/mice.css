@@ -7,7 +7,19 @@ body {
     background: #ffe8d6;
     font-size: 40px;
     font-family: Meows, sans-serif;
+    overflow: hidden;
 }
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+.example {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 
 .nav-list {
     height: 5rem;
@@ -62,7 +74,7 @@ body {
 
 .backbox {
     background-color: #ddbea9;
-    height: 20rem;
+    height: 25rem;
     margin-top: 6.4rem;
 }
 
