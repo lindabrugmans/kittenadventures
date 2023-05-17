@@ -1,8 +1,15 @@
 .container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.item{
-    border: solid black;
+.row{
+    margin: 0rem 2rem 0rem 2rem;
+    display: flex;
+    flex-direction:row;
+}
+
+.col{
+    flex: 1 1 10%;
+    justify-content: center;
 }
