@@ -55,9 +55,9 @@ body {
     margin-left: -25px;
 }
 
-.catcon{
+.catcon {
     scale: 0.5;
-    margin-right:-20px;
+    margin-right: -20px;
 }
 
 .backbox {
@@ -83,9 +83,9 @@ body {
     border-radius: 30px;
 }
 
-.introtext{
-    font-size:30px;
-    margin-top:5px;
+.introtext {
+    font-size: 30px;
+    margin-top: 5px;
 }
 
 .box {
@@ -106,7 +106,29 @@ body {
     margin-top: -37rem;
 }
 
-.img{
+.img {
     background-image: url('/assets/catinwall.png');
     background-size: cover;
+}
+
+.circlecat {
+    height: 35rem;
+    border-radius: 100%;
+    width: 35rem;
+    margin-left: 24rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bottombox {
+    background-color: #ddbea9;
+    height: 20rem;
+}
+
+.historybox {
+    margin-left: 22%;
+    margin-top: 35px;
+    border-radius: 2rem;
+    height: 16rem;
+    background-color: #b18974;
 }
