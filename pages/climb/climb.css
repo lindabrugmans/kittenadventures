@@ -47,32 +47,66 @@ body {
 .intro {
     text-align: center;
     font-size: 50px;
+    margin-top: 30px;
 }
 
-.titlecon {
+.pawcon {
     scale: 0.5;
     margin-left: -25px;
 }
 
+.catcon{
+    scale: 0.5;
+    margin-right:-20px;
+}
 
 .backbox {
     background-color: #ddbea9;
-    height: 25rem;
+    height: 22rem;
+    margin-top: 4rem;
 }
 
 .dobox {
     background-color: #b18974;
-    margin-right: 1%;
-    margin-left: 16%;
-    margin-top: 1%;
-    height: 18rem;
+    margin-right: 2%;
+    margin-left: 15%;
+    margin-top: 3%;
+    height: 15rem;
     border-radius: 30px;
 }
 
 .dontbox {
     background-color: #b18974;
-    margin-right: 1%;
-    margin-top: 1%;
-    height: 18rem;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 15rem;
     border-radius: 30px;
+}
+
+.introtext{
+    font-size:30px;
+    margin-top:5px;
+}
+
+.box {
+    background-color: #ddbea9;
+    height: 20rem;
+    border-radius: 22px;
+    width: 40rem;
+    margin-left: 26%;
+    margin-top: 25px;
+}
+
+.beam {
+    background-color: #ddbea9;
+    height: 2rem;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    margin-top: -37rem;
+}
+
+.img{
+    background-image: url('/assets/catinwall.png');
+    background-size: cover;
 }
